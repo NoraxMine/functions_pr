@@ -22,8 +22,7 @@ def function_name_5(**kwargs):  # любое количество именова
         print(key, ':', value)
 
 def add(a, b):
-    a += b
-    return a 
+    return a + b 
 
 print("Глобальная область")
 
@@ -36,3 +35,9 @@ num1 = 10
 num2 = 20
 a = add(num1, num2)  # после return внутри функции a = return [значение / выражение]
 print(a)
+
+
+
+user_input = input("Введите выражение для вычисления: ")
+print(user_input)
+
