@@ -21,8 +21,6 @@ def function_name_5(**kwargs):  # любое количество именова
     for key, value in kwargs.items():
         print(key, ':', value)
 
-def add(a, b):
-    return a + b 
 
 print("Глобальная область")
 
@@ -30,6 +28,10 @@ print("Глобальная область")
 # function_name_2([1,2,3,4])      
 # function_name_4(1,2,3,4,5)                                # вызов функциии c неизвестным числом аргументов (в список)
 # function_name_5(first='Geeks', mid='for', last='Geeks')   # вызов функциии c неизвестным числом именованных аргументов (в словарь)
+
+
+def add(a, b):
+    return a + b 
 
 num1 = 10
 num2 = 20
