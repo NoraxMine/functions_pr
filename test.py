@@ -41,6 +41,21 @@ function(1, 2, 3, 4)"""
 
 
 
+"""b = input()
+
+def search(b):
+    vow = set('aeiyou')
+    found = vow.intersection(set(b))
+    for vow in found:
+        print(vow)
+
+
+a = search(b)
+print(a)"""
+
+
+
+
 b = input()
 
 def search(b):
@@ -52,3 +67,28 @@ def search(b):
 
 a = search(b)
 print(a)
+
+
+
+num1 = int(input())
+num2 = int(input())
+
+
+
+def calculationsm(c , d):
+    mi = int(c) - int(d)
+    return mi
+
+mi = calculationsm(num1, num2)
+print('Результат min: ' + str(mi))
+
+
+
+
+
+def calculationsumn(c , d):
+    umn = int(c) * int(d)
+    return umn
+
+umn = calculationsumn(num1, num2)
+print('Результат umn: ' + str(umn))
